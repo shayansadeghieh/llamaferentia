@@ -4,10 +4,13 @@ version = "0.1.0"
 description = ""
 authors = ["Shayan Sadeghieh <shayan.sadeghieh@gmail.com>"]
 readme = "README.md"
+package-mode = false
 
 [tool.poetry.dependencies]
 python = "^3.11"
-
+huggingface_hub = "0.23.4"
+sagemaker = "^2.223.0"
+optimum-neuron = {version = "*", extras = ["neuronx"]}
 
 [build-system]
 requires = ["poetry-core"]
