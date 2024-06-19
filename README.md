@@ -1,1 +1,1 @@
-Deploying and load testing Llama3 on inferentia2
+Deploying and load testing Llama3 on AWS inferentia2
